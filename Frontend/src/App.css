@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.page-transition {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page-transition.fade-out {
+  opacity: 0;
+}
+
+.page-transition.fade-in {
+  opacity: 1;
+}
